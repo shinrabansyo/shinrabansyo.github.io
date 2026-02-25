@@ -56,9 +56,9 @@ params:
 
   copyright:
     authors: >-
-      Docsy Authors | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) |
+      森羅万象プロジェクト | [CC BY 4.0](https://creativecommons.org/licenses/by/4.0) |
     from_year: 2023
-    to_year: present
+    to_year: 2026
 
   ui:
     breadcrumb_disable: false
