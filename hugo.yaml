@@ -73,36 +73,19 @@ params:
   FA: <i class="fa-{1} fa-{2} text-{3} px-1"></i>
 
   links:
-    user:
-      - name: User mailing list
-        url: https://example.org/mail
-        icon: fa fa-envelope
-        desc: Discussion and help from your fellow users
-      - name: X
-        url: https://example.org/x
-        icon: fab fa-x-twitter
-        desc: Follow us on X to get the latest news!
-      - name: Stack Overflow
-        url: https://example.org/stack
-        icon: fab fa-stack-overflow
-        desc: Practical questions and curated answers
     developer:
-      - name: Site info
-        url: /site/
-        icon: fa-solid fa-hammer
-        desc: Site build information.
+      - name: Zenn
+        url: https://zenn.dev/p/shinrabansyou
+        icon: fab fa-z
+      - name: Qiita
+        url: https://qiita.com/shinrabansyoProject
+        icon: fab fa-q
+      - name: X
+        url: https://x.com/Shinrabansho_pj
+        icon: fab fa-x-twitter
       - name: GitHub
-        url: https://github.com/google/docsy
+        url: https://github.com/shinrabansyo/
         icon: fab fa-github
-        desc: Development takes place here!
-      - name: Slack
-        url: https://example.org/slack
-        icon: fab fa-slack
-        desc: Chat with other project developers
-      - name: Developer mailing list
-        url: https://example.org/mail
-        icon: fa fa-envelope
-        desc: Discuss development issues around the project
 
 security:
   funcs:
