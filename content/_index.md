@@ -1,37 +1,36 @@
 ---
-title: Goldydocs
-description: Porridge temperature assessment &mdash; in the cloud!
-params:
-  body_class: td-navbar-links-all-active
+title: 森羅万象プロジェクト
+description: 森羅万象プロジェクトは、セキュリティ・キャンプ全国大会に参加したメンバーからなるプロジェクトです！
 ---
 
 {{% blocks/cover
-  title="Welcome to Goldydocs: A Docsy Example and Starter Project!"
-  height="full td-below-navbar"
-  image_anchor="top"
+    title="森羅万象プロジェクト"
+    height="full td-below-navbar"
+    image_anchor="top"
 %}}
 
-<!--
-  Want a cover without an image?
-  Add the following argument to the blocks/cover shortcode:
-    color="primary bg-gradient td-below-navbar"
--->
-
-<!-- prettier-ignore -->
-{{% _param description %}}
+CPUからWebサーバまで全部作る！
 {.display-6}
 
-<!-- prettier-ignore -->
 <div class="td-cta-buttons my-5">
-  <a {{% _param btn-lg primary %}} href="docs/">
-    Learn more
-  </a>
-  <a {{% _param btn-lg secondary %}}
-    href="{{% param github_repo %}}"
-    target="_blank" rel="noopener noreferrer">
-    Get the code
-    {{% _param FA brands github "" %}}
-  </a>
+    <a {{% _param btn-lg primary %}}
+        href="docs/"
+        rel="noopener noreferrer">
+        活動記録
+        {{% _param FA solid file-alt "" %}}
+    </a>
+    <a {{% _param btn-lg secondary %}}
+        href="https://github.com/shinrabansyo"
+        target="_blank" rel="noopener noreferrer">
+        GitHub
+        {{% _param FA brands github "" %}}
+    </a>
+    <a {{% _param btn-lg secondary %}}
+        href="https://x.com/Shinrabansho_PJ"
+        target="_blank" rel="noopener noreferrer">
+        X
+        {{% _param FA brands x-twitter "" %}}
+    </a>
 </div>
 
 {{% blocks/link-down color="info" %}}
@@ -40,54 +39,45 @@ params:
 
 {{% blocks/lead color="white" %}}
 
-Goldydocs provides a single web UI providing visibility into porridge
-temperature, chair size, and bed softness metrics! You can even find out who's
-been eating **your** porridge.
-
-(Sadly, Goldydocs isn't a real project, but you can use this site as an example
-to create your own real websites with [Docsy](https://docsy.dev))
+森羅万象プロジェクトは、セキュリティ・キャンプ全国大会に参加したメンバーからなるプロジェクトです！  
+「なんでも自作してみよう！」をテーマとした活動を行っていきます！
 
 {{% /blocks/lead %}}
 
 {{% blocks/section color="primary" type="row" %}}
 
-{{% blocks/feature title="New chair metrics!" icon="fa-lightbulb" %}}
+{{% blocks/feature title="自作CPU" icon="fa-microchip" %}}
 
-The Goldydocs UI now shows chair size metrics by default.
+「48bit CPU」「ハーバードアーキテクチャ」「独自命令セット」など、オリジナリティを追求したCPUを自作しています。
+Tang Nano 9K FPGAボードを使用して、実際に動作するCPUを開発しています。
 
-Please follow this space for updates!
-
-{{% /blocks/feature %}}
-
-{{% blocks/feature
-  title="Contributions welcome!" icon="fab fa-github"
-  url="https://github.com/google/docsy-example"
-%}}
-
-We do a [Pull Request](https://github.com/google/docsy-example/pulls)
-contributions workflow on **GitHub**. New users are always welcome!
+[技術仕様](https://github.com/shinrabansyo)
 
 {{% /blocks/feature %}}
 
-{{% blocks/feature
-  title="Follow us on X!" icon="fab fa-x-twitter"
-  url="https://x.com/docsydocs"
-%}}
+{{% blocks/feature title="自作コンパイラ" icon="fa-code" %}}
 
-For announcement of latest features etc.
+自作CPUをターゲットとしたコンパイラを開発しています。
+独自言語を設計し、CPUの命令セットに対応したコードを生成することで、ソフトウェアとハードウェアの両面から自作プロジェクトを進めています。
+
+[技術仕様](https://github.com/shinrabansyo)
+
+{{% /blocks/feature %}}
+
+{{% blocks/feature title="自作OS" icon="fa-desktop" %}}
+
+自作CPU上で動作するOSの開発に挑戦しています。
+
+[技術仕様](https://github.com/shinrabansyo)
 
 {{% /blocks/feature %}}
 
 {{% /blocks/section %}}
 
-{{% blocks/section color="white" type="row text-center h1" %}}
+{{% blocks/section color="secondary" type="row text-center h4" %}}
 
-This is the second section
-
-{{% /blocks/section %}}
-
-{{% blocks/section color="secondary" type="row text-center h1" %}}
-
-This is the another section with center alignment
+他にも様々なハードウェア・ソフトウェアを自作しています！  
+興味のある方はぜひ各種ページをご覧ください。  
+日々の活動の様子は[活動記録](/work-log/)で公開しています（毎週水曜）。  
 
 {{% /blocks/section %}}

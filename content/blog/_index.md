@@ -4,6 +4,4 @@ aliases: [/blog/2018/*]
 menu: { main: { weight: 30 } }
 ---
 
-This is the **blog** section. It has two categories: News and Releases.
-
-Files in these directories will be listed in reverse chronological order.
+毎回の活動の記録やイベントの情報についてのページです。
