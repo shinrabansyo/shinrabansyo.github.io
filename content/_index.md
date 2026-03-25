@@ -14,7 +14,7 @@ CPUからWebサーバまで全部作る！
 
 <div class="td-cta-buttons my-5">
     <a {{% _param btn-lg primary %}}
-        href="work-log/"
+        href="log/"
         rel="noopener noreferrer">
         活動ログ
         {{% _param FA solid file-alt "" %}}
@@ -78,6 +78,6 @@ Tang Nano 9K FPGAボードを使用して、実際に動作するCPUを開発し
 
 他にも様々なハードウェア・ソフトウェアを自作しています！  
 興味のある方はぜひ各種ページをご覧ください。  
-日々の活動の様子は[活動記録](/log/)で公開しています（毎週水曜）。  
+日々の活動の様子は[活動ログ](/log/)で公開しています（毎週水曜）。  
 
 {{% /blocks/section %}}
