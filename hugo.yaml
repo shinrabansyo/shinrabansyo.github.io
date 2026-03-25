@@ -46,8 +46,8 @@ params:
   # First one is picked as the Twitter card image if not set on page.
   # images: [images/project-illustration.png]
 
-  github_repo: https://github.com/shinrabansyo
-  github_project_repo: https://github.com/shinrabansyo/shinrabansyo.github.io
+  github_repo: https://github.com/shinrabansyo/shinrabansyo.github.io
+  github_project_repo: https://github.com/shinrabansyo
   github_branch: master
 
   version: 0.1.0
