@@ -14,9 +14,9 @@ CPUからWebサーバまで全部作る！
 
 <div class="td-cta-buttons my-5">
     <a {{% _param btn-lg primary %}}
-        href="docs/"
+        href="work-log/"
         rel="noopener noreferrer">
-        活動記録
+        活動ログ
         {{% _param FA solid file-alt "" %}}
     </a>
     <a {{% _param btn-lg secondary %}}
